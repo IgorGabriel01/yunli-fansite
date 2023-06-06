@@ -1,33 +1,68 @@
-header{
+header {
     background-color: #fde441;
+    font-family: 'Sigmar', cursive;;
 }
-#img-logo-yunli{
+
+#img-logo-yunli {
     display: block;
     width: 200px;
     height: 200px;
     margin: auto;
 }
-#ul-nav-header{
+
+#ul-nav-header {
     display: flex;
     justify-content: space-evenly;
 }
-nav{
+
+nav {
     font-size: 24px;
     background-color: #965fd8;
     border-top: 1.8px solid black;
     border-bottom: 1.8px solid black;
 }
-a{
+
+.nav-li {
     color:#f15bb6;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: #000;
 }
-#img-logo-github{
-    width: 50px;
-    height: 50px;
+
+#div-help {
+    background-color: #965fd8;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color:  #cccccc;
+}
+
+#footer-help {
+    display: flex;
+    justify-content: center;
+}
+
+.itens-help {
+    margin: 10px 10px;
+}
+
+#div-icones-footer {
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img-icones-footer {
+    width: 45px;
+    height: 45px;
 }
 
 /*Estilos Dinâmicos*/
 .nav-li:hover {
     -webkit-text-stroke-color: #fde441;
+}
+
+.itens-help:hover {
+    opacity: 0.5;
 }
